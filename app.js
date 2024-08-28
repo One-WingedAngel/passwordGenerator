@@ -6,11 +6,15 @@ function generator() {
     for(let i=0;i<15;i++) {
        password += characters[Math.floor(Math.random() * characters.length-1)] 
     }
-    console.log(password)
+    
     return password
 }
 
+generator()
+
+console.log(password)
 
 function assigner() {
-    passEl.textContent += "Hello" 
+     passEl.textContent += password
 }
+

@@ -12,9 +12,13 @@ function generator() {
 
 generator()
 
-console.log(password)
 
 function assigner() {
      passEl.textContent += password
 }
+
+function reset() {
+    location.reload()
+}
+
 

@@ -5,10 +5,9 @@ const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 function generator() {
     let password = "" //Reset the password for each time the generate button 
     for(let i=0;i<15;i++) {
-       password += characters[Math.floor(Math.random() * characters.length-1)] 
+        password += characters.charAt(Math.floor(Math.random() * characters.length)) 
     }
-    
-    return password
+    return password 
 }
 
 

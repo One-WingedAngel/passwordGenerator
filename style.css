@@ -40,6 +40,9 @@ margin-top: 10px;
 }
 }
 
+button:active {
+    background-color: black;
+}
 #generated-password {
     border: solid 2px black;
     background-color: #fff;
@@ -49,3 +52,5 @@ margin-top: 10px;
     font-weight: bold;
     font-size: 4vh;
 }
+
+

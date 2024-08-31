@@ -3,8 +3,7 @@ const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz01234567
 
 // function that generates the seucre password by randomly selecting 15 characters from the characters variable 
 function generator() {
-    let password = ""
-
+    let password = "" //Reset the password for each time the generate button 
     for(let i=0;i<15;i++) {
        password += characters[Math.floor(Math.random() * characters.length-1)] 
     }
@@ -14,10 +13,10 @@ function generator() {
 
 
 
-// updates the html of the page with the generated password
+// Update HTML
 function assigner() {
-    const password =generator()
-     passEl.textContent = password
+    const password = generator() // Generate a new password each time
+     passEl.textContent = password // Replace the exisiting content with new html
 }
 
 

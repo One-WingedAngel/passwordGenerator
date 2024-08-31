@@ -18,5 +18,10 @@ function assigner() {
      passEl.textContent = password // Replace the exisiting content with new html
 }
 
+function copy () {
+    console.log("Copy button works")
+}
+
 
 document.getElementById("btn-gen").addEventListener("click",assigner)
+document.getElementById("btn-copy").addEventListener("click",copy)

@@ -18,8 +18,8 @@ function assigner() {
      passEl.textContent = password // Replace the exisiting content with new html
 }
 
-function copy () {
-    console.log("Copy button works")
+function copy() {
+    navigator.clipboard.writeText(passEl.textContent)
 }
 
 

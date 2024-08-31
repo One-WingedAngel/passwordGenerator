@@ -39,3 +39,10 @@ margin-top: 10px;
     box-shadow: 0 2px 2px rgb(39 44 52 / 12%);
 }
 }
+
+#generated-password {
+    border: solid 2px ;
+    background-color: #fff;
+    border-radius: 5px;
+    height: 20px;
+}

@@ -19,7 +19,7 @@ function assigner() {
 }
 
 function copy() {
-    navigator.clipboard.writeText(passEl.textContent)
+    navigator.clipboard.writeText(passEl.textContent) //copys password to clipboard
 }
 
 

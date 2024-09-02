@@ -1,5 +1,5 @@
 const passEl = document.querySelector("#generated-password")
-const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+const characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789!@#$%^&*()"
 
 // function that generates the seucre password by randomly selecting 15 characters from the characters variable 
 function generator() {
